@@ -15,6 +15,7 @@
     src: url(../font/Poppins-SemiBold.ttf);
 }
 
+
 /*VERIABLES*/
 
 :root {
@@ -36,7 +37,6 @@
 .header_container {
     max-width: 1600px;
     width: 100%;
-    min-height: 770px;
     margin: 0 auto;
     padding: 46px 215px 0px;
     background: var(--color6);
@@ -48,6 +48,10 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 76px;
+}
+
+.header_nav_button {
+    display: none;
 }
 
 .header_logo {}
@@ -87,6 +91,7 @@
     color: var(--color2);
 }
 
+
 .header_text {
     font-family: var(--font1);
     font-size: 14px;
@@ -115,7 +120,7 @@
 }
 
 .section_blocks {
-    min-width: 370px;
+    max-width: 370px;
 }
 
 .section_img {
@@ -259,3 +264,4 @@
     color: var(--color5);
     text-align: center;
 }
+
