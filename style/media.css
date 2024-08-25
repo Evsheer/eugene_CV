@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
 
     .header_nav {
         display: none;
@@ -34,24 +34,30 @@
         justify-content: center;
 
     }
-    .header_intro_info{
+
+    .header_intro_info {
         margin-bottom: 30px;
     }
 
+
+    .header_title {
+        margin-top: 60px;
+    }
+    
     .section_text {
         text-align: center;
-        
+
     }
 
-    .header_intro_img{
+    .header_intro_img {
         text-align: center;
     }
 
-    .portfolio_container{
+    .portfolio_container {
         padding: 40px 30px 50px;
     }
 
-    .contacts_container{
+    .contacts_container {
         padding: 40px 30px 50px;
     }
 
