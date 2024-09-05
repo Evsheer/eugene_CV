@@ -173,10 +173,7 @@
 .portfolio_inner {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    gap: 90px;
-
 }
 
 .portfolio_bloks {
@@ -195,12 +192,17 @@
     margin-bottom: 40px;
 }
 
+.portfolio_text {
+    margin-bottom: 30px;
+}
+
 .portfolio_text a {
     font-family: var(--font1);
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     color: var(--color3);
+
 }
 
 .portfolio_text a {
